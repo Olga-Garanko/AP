@@ -1,0 +1,112 @@
+@media only screen and (max-width : 1280px) {
+	.content-block .diagonal{
+		transform: rotate(30deg);
+	}
+	.news .news-item{
+		flex: 0 0 45%;
+	}
+   .audio .audio-left-block{
+    	width: 60%;
+   }
+   .audio .audio-right-block{
+    	width: 40%;
+   }
+    .biography .biography-block .content-with-line{
+      padding-bottom: 60px;
+    }
+}
+@media screen and (max-width: 1024px) {
+   .audio .audio-left-block{
+     width: 70%;
+   }
+   .audio .audio-right-block{
+     width: 30%;
+   }
+}
+@media screen and (max-width: 980px) {
+   .audio .audio-left-block{
+     width: 100%;
+   }
+   .audio .audio-right-block{
+     display: none;
+   }
+}
+@media only screen and (max-width : 768px) {
+	* .diagonal{
+		display: none;
+	}
+    .biography .biography-block .content-with-line{
+      padding-bottom: 60px;
+      padding-top: 0;
+    }
+	.biography .biography-block{
+		width: 100%;
+		.text-block{
+			font-size: 1.2rem;
+		}
+	}
+	.photo-block{
+	  .photo-item{
+	    flex: 0 0 100%;
+	    padding-bottom: 15px;
+	  }
+	}
+	.sizer4 {
+	  width: 100%;
+	}
+	.masonry-galery__item .masonry-galery__item-inner{
+	  margin: 0 15px 7px;
+	}
+	.masonry-galery__item:nth-child(2n) .masonry-galery__item-inner{
+	  margin: 0 15px 7px;
+	}
+	.news{
+		background: none;
+		.news-item{
+		  flex: 0 0 100%;
+		}
+		.news-item__title{
+		  height: auto;
+		}
+	    .news-item__text{
+	      height: auto;
+	    }
+	}
+	.album{
+	  padding-bottom: 270px;
+	  background: none;
+	}
+	.album .slick-prev {
+	    border-right-color: #fff;
+	    opacity: 0.5;
+	    left: -30px;
+	}
+	.album .slick-next {
+	    border-left-color: #fff;
+	    opacity: 0.5;
+	    right: -30px;
+	}
+	.audio .audio-button-block{
+		flex-direction: column;
+		align-content: flex-start;
+	    .button{
+	      margin-bottom: 20px;
+	    }
+	    .button:after{
+	      width: 125%;
+	    }
+		.button_right{
+			float: left;
+		}
+		.button_right:after {
+		    float: left;
+		}
+	}
+}
+@media only screen and (max-width : 680px) {
+  .audio .track-title{
+    span{
+    	display: none;
+    }
+  }
+}
